@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LERP Lab Experiment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="lab-box">
+        <h2>HCI Lab: Linear Interpolation</h2>
+        
+        <div class="lerp-track">
+            <div class="point-label" style="left: 0;">Point A (0)</div>
+            <div class="point-label" style="right: 0;">Point B (500)</div>
+            
+            <div id="ball"></div>
+        </div>
+
+        <div class="ui-panel">
+            <button onclick="runAnimation()">Play Animation</button>
+            <div class="stats">
+                Current T: <span id="t-val">0.00</span><br>
+                Current Pos: <span id="pos-val">0</span>px
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
